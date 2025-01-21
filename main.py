@@ -11,7 +11,7 @@ upper_brown = np.array([25, 200, 150])  # Upper limit for brown color
 egg_columns = np.array([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
 space = np.array([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
 
-cap = cv2.VideoCapture("C:/Users/YUSUF ÖNSOY/OneDrive/Masaüstü/EggDetection-master/EggDetection-master/yum2.mp4")  # Sample video # If you want to use a camera, write "0"
+cap = cv2.VideoCapture("egg.mp4")  # Sample video # If you want to use a camera, write "0"
 
 fgbg = cv2.createBackgroundSubtractorMOG2()
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3)) 
